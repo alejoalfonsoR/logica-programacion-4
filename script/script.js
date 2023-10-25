@@ -1,4 +1,4 @@
-// Función principal para manejar el input y mostrar la sucesión
+// Función principal 
 function fibonacci() {
     // Obtener elementos del DOM
     const numeroInput = document.getElementById("numeroCalcular");
@@ -23,7 +23,7 @@ function fibonacci() {
     } else {
         numeroInput.value = "";
         mostrarResultado.innerText = "";
-        // Manejar el caso en que no se ingrese un número
+        // Error en caso de que no se ingrese un número
         alert(
             "El valor ingresado no es un número. Por favor, ingrese un dato válido y vuelva a intentarlo."
         );
